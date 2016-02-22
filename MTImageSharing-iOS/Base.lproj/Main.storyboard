@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Download-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOD-hP-9G1">
+                                <rect key="frame" x="20" y="28" width="560" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ZET-BP-xZA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <state key="normal" title="https://www.gstatic.com/webp/gallery/3.jpg"/>
+                                <connections>
+                                    <action selector="downloadImage:" destination="9pv-A4-QxB" eventType="touchUpInside" id="OLh-pJ-NyF"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rSz-9L-7be">
+                                <rect key="frame" x="20" y="57" width="560" height="486"/>
+                            </imageView>
+                            <progressView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="276-2m-pfk">
+                                <rect key="frame" x="225" y="299" width="150" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="DKw-xZ-5Nx"/>
+                                    <constraint firstAttribute="height" constant="2" id="Wrp-8v-jJk"/>
+                                </constraints>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="cOD-hP-9G1" secondAttribute="trailing" id="49I-LF-DGR"/>
+                            <constraint firstItem="cOD-hP-9G1" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="8" id="4BN-YE-4Os"/>
+                            <constraint firstItem="276-2m-pfk" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="Fn3-k3-Tzn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rSz-9L-7be" secondAttribute="trailing" id="QdO-gq-pXE"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="rSz-9L-7be" secondAttribute="bottom" constant="8" id="ST8-Wh-GyN"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="cOD-hP-9G1" secondAttribute="leading" id="frr-t1-TjO"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="rSz-9L-7be" secondAttribute="leading" id="jjM-X2-sQ2"/>
+                            <constraint firstItem="276-2m-pfk" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="lTh-Zx-LJE"/>
+                            <constraint firstItem="rSz-9L-7be" firstAttribute="top" secondItem="cOD-hP-9G1" secondAttribute="bottom" constant="8" id="z9g-Au-3uo"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Download" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="imageView" destination="rSz-9L-7be" id="JjS-NK-2AC"/>
+                        <outlet property="linkButton" destination="cOD-hP-9G1" id="Va2-00-lwC"/>
+                        <outlet property="progressView" destination="276-2m-pfk" id="bDk-vn-HDu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-320"/>
+        </scene>
+        <!--Upload-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yr7-7d-vhe">
+                                <rect key="frame" x="20" y="66" width="560" height="477"/>
+                            </imageView>
+                            <progressView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="OVB-Ir-HlF">
+                                <rect key="frame" x="225" y="304" width="150" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="nAA-il-Tqx"/>
+                                    <constraint firstAttribute="height" constant="2" id="uQG-0t-gZN"/>
+                                </constraints>
+                            </progressView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rp6-EZ-Vn9" userLabel="Buttons View">
+                                <rect key="frame" x="156" y="28" width="288" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QxC-e0-fWT">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="140" id="Sjf-n9-tpv"/>
+                                        </constraints>
+                                        <state key="normal" title="Pick Image"/>
+                                        <connections>
+                                            <action selector="pickImage:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="E8F-ep-XVH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKX-ND-6M3">
+                                        <rect key="frame" x="148" y="0.0" width="140" height="30"/>
+                                        <state key="normal" title="Upload"/>
+                                        <connections>
+                                            <action selector="upload:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="U1X-ei-JZg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="QxC-e0-fWT" secondAttribute="bottom" id="Bjy-WG-vhv"/>
+                                    <constraint firstAttribute="height" constant="30" id="DX1-Xd-STq"/>
+                                    <constraint firstAttribute="bottom" secondItem="FKX-ND-6M3" secondAttribute="bottom" id="Mbk-qe-FFJ"/>
+                                    <constraint firstItem="FKX-ND-6M3" firstAttribute="top" secondItem="rp6-EZ-Vn9" secondAttribute="top" id="UT4-JY-qP4"/>
+                                    <constraint firstAttribute="trailing" secondItem="FKX-ND-6M3" secondAttribute="trailing" id="WFO-wS-fEy"/>
+                                    <constraint firstItem="QxC-e0-fWT" firstAttribute="top" secondItem="rp6-EZ-Vn9" secondAttribute="top" id="Z1a-tg-XQP"/>
+                                    <constraint firstAttribute="width" constant="288" id="qUL-jl-oY2"/>
+                                    <constraint firstItem="QxC-e0-fWT" firstAttribute="leading" secondItem="rp6-EZ-Vn9" secondAttribute="leading" id="ybS-ET-H59"/>
+                                    <constraint firstItem="FKX-ND-6M3" firstAttribute="leading" secondItem="QxC-e0-fWT" secondAttribute="trailing" constant="8" id="yki-vw-wvY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rp6-EZ-Vn9" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="8" id="66b-yJ-S7D"/>
+                            <constraint firstItem="yr7-7d-vhe" firstAttribute="top" secondItem="rp6-EZ-Vn9" secondAttribute="bottom" constant="8" id="9rN-0q-iNy"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="yr7-7d-vhe" secondAttribute="bottom" constant="8" id="EH6-8j-aoQ"/>
+                            <constraint firstItem="OVB-Ir-HlF" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="Exu-5B-REd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yr7-7d-vhe" secondAttribute="trailing" id="LSX-DJ-VJX"/>
+                            <constraint firstItem="OVB-Ir-HlF" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" constant="5" id="S2C-ql-SVh"/>
+                            <constraint firstItem="rp6-EZ-Vn9" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="zT3-Ye-wjD"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="yr7-7d-vhe" secondAttribute="leading" id="zqA-pL-Xc1"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Upload" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="imageView" destination="yr7-7d-vhe" id="6br-Hn-afz"/>
+                        <outlet property="progressView" destination="OVB-Ir-HlF" id="4tD-hr-VmC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>

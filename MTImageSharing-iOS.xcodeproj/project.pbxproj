@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A15A19D1C76E22600695A7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A15A19C1C76E22600695A7B /* main.m */; };
+		1A15A1A01C76E22600695A7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A15A19F1C76E22600695A7B /* AppDelegate.m */; };
+		1A15A1A31C76E22600695A7B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A15A1A21C76E22600695A7B /* FirstViewController.m */; };
+		1A15A1A61C76E22600695A7B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A15A1A51C76E22600695A7B /* SecondViewController.m */; };
+		1A15A1A91C76E22600695A7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A15A1A71C76E22600695A7B /* Main.storyboard */; };
+		1A15A1AB1C76E22600695A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A15A1AA1C76E22600695A7B /* Assets.xcassets */; };
+		1A15A1AE1C76E22600695A7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A15A1AC1C76E22600695A7B /* LaunchScreen.storyboard */; };
+		1A15A1B91C76E22600695A7B /* MTImageSharing_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A15A1B81C76E22600695A7B /* MTImageSharing_iOSTests.m */; };
+		1A15A1C41C76E22600695A7B /* MTImageSharing_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A15A1C31C76E22600695A7B /* MTImageSharing_iOSUITests.m */; };
+		1A15A1D31C76E4B200695A7B /* MTImageSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A15A1D21C76E4B200695A7B /* MTImageSharing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A15A1B51C76E22600695A7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A15A1901C76E22600695A7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A15A1971C76E22600695A7B;
+			remoteInfo = "MTImageSharing-iOS";
+		};
+		1A15A1C01C76E22600695A7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A15A1901C76E22600695A7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A15A1971C76E22600695A7B;
+			remoteInfo = "MTImageSharing-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A15A1981C76E22600695A7B /* MTImageSharing-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MTImageSharing-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A15A19C1C76E22600695A7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A15A19E1C76E22600695A7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A15A19F1C76E22600695A7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A15A1A11C76E22600695A7B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1A15A1A21C76E22600695A7B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1A15A1A41C76E22600695A7B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1A15A1A51C76E22600695A7B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1A15A1A81C76E22600695A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A15A1AA1C76E22600695A7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A15A1AD1C76E22600695A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A15A1AF1C76E22600695A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A15A1B41C76E22600695A7B /* MTImageSharing-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTImageSharing-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A15A1B81C76E22600695A7B /* MTImageSharing_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTImageSharing_iOSTests.m; sourceTree = "<group>"; };
+		1A15A1BA1C76E22600695A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A15A1BF1C76E22600695A7B /* MTImageSharing-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTImageSharing-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A15A1C31C76E22600695A7B /* MTImageSharing_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTImageSharing_iOSUITests.m; sourceTree = "<group>"; };
+		1A15A1C51C76E22600695A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A15A1D11C76E4B200695A7B /* MTImageSharing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTImageSharing.h; sourceTree = "<group>"; };
+		1A15A1D21C76E4B200695A7B /* MTImageSharing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTImageSharing.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A15A1951C76E22600695A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A15A1B11C76E22600695A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A15A1BC1C76E22600695A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A15A18F1C76E22600695A7B = {
+			isa = PBXGroup;
+			children = (
+				1A3225EA1C7B2A0500A41E2E /* MTImageSharing */,
+				1A15A19A1C76E22600695A7B /* MTImageSharing-iOS */,
+				1A15A1B71C76E22600695A7B /* MTImageSharing-iOSTests */,
+				1A15A1C21C76E22600695A7B /* MTImageSharing-iOSUITests */,
+				1A15A1991C76E22600695A7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A15A1991C76E22600695A7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A15A1981C76E22600695A7B /* MTImageSharing-iOS.app */,
+				1A15A1B41C76E22600695A7B /* MTImageSharing-iOSTests.xctest */,
+				1A15A1BF1C76E22600695A7B /* MTImageSharing-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A15A19A1C76E22600695A7B /* MTImageSharing-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1A15A19E1C76E22600695A7B /* AppDelegate.h */,
+				1A15A19F1C76E22600695A7B /* AppDelegate.m */,
+				1A15A1A11C76E22600695A7B /* FirstViewController.h */,
+				1A15A1A21C76E22600695A7B /* FirstViewController.m */,
+				1A15A1A41C76E22600695A7B /* SecondViewController.h */,
+				1A15A1A51C76E22600695A7B /* SecondViewController.m */,
+				1A15A1A71C76E22600695A7B /* Main.storyboard */,
+				1A15A1AA1C76E22600695A7B /* Assets.xcassets */,
+				1A15A1AC1C76E22600695A7B /* LaunchScreen.storyboard */,
+				1A15A1AF1C76E22600695A7B /* Info.plist */,
+				1A15A19B1C76E22600695A7B /* Supporting Files */,
+			);
+			path = "MTImageSharing-iOS";
+			sourceTree = "<group>";
+		};
+		1A15A19B1C76E22600695A7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A15A19C1C76E22600695A7B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A15A1B71C76E22600695A7B /* MTImageSharing-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A15A1B81C76E22600695A7B /* MTImageSharing_iOSTests.m */,
+				1A15A1BA1C76E22600695A7B /* Info.plist */,
+			);
+			path = "MTImageSharing-iOSTests";
+			sourceTree = "<group>";
+		};
+		1A15A1C21C76E22600695A7B /* MTImageSharing-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A15A1C31C76E22600695A7B /* MTImageSharing_iOSUITests.m */,
+				1A15A1C51C76E22600695A7B /* Info.plist */,
+			);
+			path = "MTImageSharing-iOSUITests";
+			sourceTree = "<group>";
+		};
+		1A3225EA1C7B2A0500A41E2E /* MTImageSharing */ = {
+			isa = PBXGroup;
+			children = (
+				1A15A1D11C76E4B200695A7B /* MTImageSharing.h */,
+				1A15A1D21C76E4B200695A7B /* MTImageSharing.m */,
+			);
+			name = MTImageSharing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A15A1971C76E22600695A7B /* MTImageSharing-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A15A1C81C76E22600695A7B /* Build configuration list for PBXNativeTarget "MTImageSharing-iOS" */;
+			buildPhases = (
+				1A15A1941C76E22600695A7B /* Sources */,
+				1A15A1951C76E22600695A7B /* Frameworks */,
+				1A15A1961C76E22600695A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MTImageSharing-iOS";
+			productName = "MTImageSharing-iOS";
+			productReference = 1A15A1981C76E22600695A7B /* MTImageSharing-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A15A1B31C76E22600695A7B /* MTImageSharing-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A15A1CB1C76E22600695A7B /* Build configuration list for PBXNativeTarget "MTImageSharing-iOSTests" */;
+			buildPhases = (
+				1A15A1B01C76E22600695A7B /* Sources */,
+				1A15A1B11C76E22600695A7B /* Frameworks */,
+				1A15A1B21C76E22600695A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A15A1B61C76E22600695A7B /* PBXTargetDependency */,
+			);
+			name = "MTImageSharing-iOSTests";
+			productName = "MTImageSharing-iOSTests";
+			productReference = 1A15A1B41C76E22600695A7B /* MTImageSharing-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A15A1BE1C76E22600695A7B /* MTImageSharing-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A15A1CE1C76E22600695A7B /* Build configuration list for PBXNativeTarget "MTImageSharing-iOSUITests" */;
+			buildPhases = (
+				1A15A1BB1C76E22600695A7B /* Sources */,
+				1A15A1BC1C76E22600695A7B /* Frameworks */,
+				1A15A1BD1C76E22600695A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A15A1C11C76E22600695A7B /* PBXTargetDependency */,
+			);
+			name = "MTImageSharing-iOSUITests";
+			productName = "MTImageSharing-iOSUITests";
+			productReference = 1A15A1BF1C76E22600695A7B /* MTImageSharing-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A15A1901C76E22600695A7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mTuity;
+				TargetAttributes = {
+					1A15A1971C76E22600695A7B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1A15A1B31C76E22600695A7B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1A15A1971C76E22600695A7B;
+					};
+					1A15A1BE1C76E22600695A7B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1A15A1971C76E22600695A7B;
+					};
+				};
+			};
+			buildConfigurationList = 1A15A1931C76E22600695A7B /* Build configuration list for PBXProject "MTImageSharing-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A15A18F1C76E22600695A7B;
+			productRefGroup = 1A15A1991C76E22600695A7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A15A1971C76E22600695A7B /* MTImageSharing-iOS */,
+				1A15A1B31C76E22600695A7B /* MTImageSharing-iOSTests */,
+				1A15A1BE1C76E22600695A7B /* MTImageSharing-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A15A1961C76E22600695A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A15A1AE1C76E22600695A7B /* LaunchScreen.storyboard in Resources */,
+				1A15A1AB1C76E22600695A7B /* Assets.xcassets in Resources */,
+				1A15A1A91C76E22600695A7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A15A1B21C76E22600695A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A15A1BD1C76E22600695A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A15A1941C76E22600695A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A15A1D31C76E4B200695A7B /* MTImageSharing.m in Sources */,
+				1A15A1A61C76E22600695A7B /* SecondViewController.m in Sources */,
+				1A15A1A01C76E22600695A7B /* AppDelegate.m in Sources */,
+				1A15A1A31C76E22600695A7B /* FirstViewController.m in Sources */,
+				1A15A19D1C76E22600695A7B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A15A1B01C76E22600695A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A15A1B91C76E22600695A7B /* MTImageSharing_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A15A1BB1C76E22600695A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A15A1C41C76E22600695A7B /* MTImageSharing_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A15A1B61C76E22600695A7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A15A1971C76E22600695A7B /* MTImageSharing-iOS */;
+			targetProxy = 1A15A1B51C76E22600695A7B /* PBXContainerItemProxy */;
+		};
+		1A15A1C11C76E22600695A7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A15A1971C76E22600695A7B /* MTImageSharing-iOS */;
+			targetProxy = 1A15A1C01C76E22600695A7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A15A1A71C76E22600695A7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A15A1A81C76E22600695A7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A15A1AC1C76E22600695A7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A15A1AD1C76E22600695A7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A15A1C61C76E22600695A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A15A1C71C76E22600695A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A15A1C91C76E22600695A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MTImageSharing-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtuity.MTImageSharing-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A15A1CA1C76E22600695A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MTImageSharing-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtuity.MTImageSharing-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A15A1CC1C76E22600695A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MTImageSharing-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtuity.MTImageSharing-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTImageSharing-iOS.app/MTImageSharing-iOS";
+			};
+			name = Debug;
+		};
+		1A15A1CD1C76E22600695A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MTImageSharing-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtuity.MTImageSharing-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTImageSharing-iOS.app/MTImageSharing-iOS";
+			};
+			name = Release;
+		};
+		1A15A1CF1C76E22600695A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MTImageSharing-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtuity.MTImageSharing-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MTImageSharing-iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1A15A1D01C76E22600695A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MTImageSharing-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtuity.MTImageSharing-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MTImageSharing-iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A15A1931C76E22600695A7B /* Build configuration list for PBXProject "MTImageSharing-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A15A1C61C76E22600695A7B /* Debug */,
+				1A15A1C71C76E22600695A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A15A1C81C76E22600695A7B /* Build configuration list for PBXNativeTarget "MTImageSharing-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A15A1C91C76E22600695A7B /* Debug */,
+				1A15A1CA1C76E22600695A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A15A1CB1C76E22600695A7B /* Build configuration list for PBXNativeTarget "MTImageSharing-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A15A1CC1C76E22600695A7B /* Debug */,
+				1A15A1CD1C76E22600695A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A15A1CE1C76E22600695A7B /* Build configuration list for PBXNativeTarget "MTImageSharing-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A15A1CF1C76E22600695A7B /* Debug */,
+				1A15A1D01C76E22600695A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A15A1901C76E22600695A7B /* Project object */;
+}
